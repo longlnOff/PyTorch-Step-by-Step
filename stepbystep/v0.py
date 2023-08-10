@@ -1,3 +1,5 @@
+import torch
+import numpy as np
 class StepByStep(object):
     def __init__(self, model, loss_fn, optimizer):
         # Here we define the attributes of our class
